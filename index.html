@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UserRegister</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="itemMainHeader">
+        <header>S.O.S Programmer website</header>
+      </div>
+      <div id="itemSignUp">
+        <form>
+          <fieldset>
+            <legend>Sign Up</legend>
+            <fieldset>
+              <label for="first" name>First Name</label><br />
+              <input type="text" name="first" required /><br />
+              <label for="after">After Name</label><br />
+              <input type="text" name="after" required /><br />
+              <label for="Pass">Password </label><br />
+              <input type="password" name="pass" required />
+            </fieldset>
+            <br />
+
+            <fieldset>
+              <legend>Gender</legend>
+              <input type="radio" id="male" name="selectGender" value="Male" />
+              <label for="male"> Male </label>
+              <input
+                type="radio"
+                id="female"
+                name="selectGender"
+                value="Female"
+              />
+              <label for="female"> Female </label>
+              <input
+                type="radio"
+                id="Other"
+                name="selectGender"
+                value="Other"
+              />
+              <label for="other"> Other </label>
+            </fieldset>
+            <br />
+
+            <fieldset>
+              <legend>What languages do you need help?</legend>
+              <label for="javaScript">Javascript </label>
+              <input type="checkbox" name="javaScript" required />
+              <label for="siftUI">Swift </label>
+              <input type="checkbox" name="swiftUI" required />
+              <label for="kotlin">Kotlin </label>
+              <input type="checkbox" name="kotlin" required />
+            </fieldset>
+            <br />
+
+            <fieldset>
+              <legend>Terms User and Conditions</legend>
+              <input type="checkbox" name="terms" />
+              <label for="terms">I am agree with the user Conditions </label
+              ><br /><br />
+              <div id="btnSubmit">
+                <button type="submit" name="createUserBtn">Sign Up</button>
+              </div>
+            </fieldset>
+          </fieldset>
+        </form>
+      </div>
+
+      <div id="itemFooter">
+        <footer>Copyright 2023</footer>
+      </div>
+    </div>
+  </body>
+</html>
