@@ -19,8 +19,9 @@ body {
 
 #itemSignUp {
   display: flex;
+  justify-content: center;
   align-content: center;
-  margin: auto;
+  /* margin: auto; */
   background-color: aqua;
 }
 
