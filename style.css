@@ -19,12 +19,12 @@ body {
   background-size: 100% 101%; /* Fix problem */
 }
 
-/* Using grids areas */
+/* Using Grids areas */
 #asideLeft {
   grid-area: 1 / 1 / 4 / 2;
 }
 
-/* Using grids areas */
+/* Using Grids areas */
 #itemHeader {
   display: flex;
   justify-content: center;
@@ -34,7 +34,7 @@ body {
   background-color: rgb(61, 61, 61);
 }
 
-/* Using grids areas */
+/* Using Grids areas */
 #itemSignUp {
   display: flex;
   justify-content: center;
@@ -44,19 +44,19 @@ body {
   padding: 10px 0px 10px 0px; /* Top and bottom */
 }
 
-/* Using grids areas */
+/* Using Grids areas */
 #asideRight {
   grid-area: 1 / 3 / 4 / 4;
 }
 
-/* Using grids areas */
+/* Using Grids areas */
 #itemFooter {
   display: flex;
   justify-content: center;
   align-items: center;
   grid-area: 3/ 2 /3 /2;
   color: rgb(0, 0, 0);
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(192, 192, 192);
 }
 
 #btnSubmit {
