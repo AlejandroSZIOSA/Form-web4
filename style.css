@@ -36,6 +36,10 @@ body {
   background-color: rgb(61, 61, 61);
 }
 
+input:focus {
+  background-color: rgb(72, 218, 255);
+}
+
 /* Using Grids areas */
 #itemSignUp {
   display: flex;
@@ -59,7 +63,7 @@ body {
   grid-area: 3/ 2 /3 /2;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(0, 0, 0);
-  background-color: rgb(221, 221, 221);
+  background-color: rgb(194, 194, 194);
 }
 
 #btnSubmit {
