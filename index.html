@@ -17,7 +17,7 @@
       <div class="items-aside" id="asideLeft"></div>
 
       <div id="itemSignUp">
-        <form>
+        <form action="https://httpbin.org/anything" method="post">
           <fieldset>
             <legend>Sign Up Here!</legend>
             <fieldset>
@@ -54,11 +54,11 @@
             <fieldset>
               <legend>Which languages do you need help?</legend>
               <label for="javaScript">Javascript </label>
-              <input type="checkbox" name="javaScript" required />
+              <input type="checkbox" name="javaScript" />
               <label for="siftUI">Swift </label>
-              <input type="checkbox" name="swiftUI" required />
+              <input type="checkbox" name="swiftUI" />
               <label for="kotlin">Kotlin </label>
-              <input type="checkbox" name="kotlin" required />
+              <input type="checkbox" name="kotlin" />
             </fieldset>
             <br />
 
@@ -68,7 +68,7 @@
               <label for="terms">I am agree with the user Conditions </label
               ><br /><br />
               <div id="btnSubmit">
-                <button type="submit" name="createUserBtn">Sign Up</button>
+                <button type="submit">Sign Up</button>
               </div>
             </fieldset>
           </fieldset>
