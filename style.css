@@ -1,9 +1,9 @@
 body {
   margin: 0px;
   border: 0px;
-  background-color: red; /* test */
 }
 
+/* Define Grids model */
 .container {
   height: 100vh; /* Fix problem */
   display: grid;
@@ -12,17 +12,19 @@ body {
   /*   gap: 5px; */
 }
 
-/* This is a simple logo aside make It with Gimp */
+/* The image is a simple logo make It with Gimp */
 .items-aside {
   background-image: url(assets/aside-logo.png);
   background-repeat: no-repeat;
   background-size: 100% 101%; /* Fix problem */
 }
 
+/* Using grids areas */
 #asideLeft {
   grid-area: 1 / 1 / 4 / 2;
 }
 
+/* Using grids areas */
 #itemHeader {
   display: flex;
   justify-content: center;
@@ -32,6 +34,7 @@ body {
   background-color: rgb(61, 61, 61);
 }
 
+/* Using grids areas */
 #itemSignUp {
   display: flex;
   justify-content: center;
@@ -41,17 +44,19 @@ body {
   padding: 10px 0px 10px 0px; /* Top and bottom */
 }
 
+/* Using grids areas */
 #asideRight {
   grid-area: 1 / 3 / 4 / 4;
 }
 
+/* Using grids areas */
 #itemFooter {
   display: flex;
   justify-content: center;
   align-items: center;
   grid-area: 3/ 2 /3 /2;
   color: rgb(0, 0, 0);
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(219, 219, 219);
 }
 
 #btnSubmit {
