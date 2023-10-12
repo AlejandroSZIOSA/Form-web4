@@ -12,10 +12,14 @@ body {
   /*   gap: 5px; */
 }
 
-#itemLeft {
+/* This is a simple logo aside make It with Gimp */
+.items-aside {
   background-image: url(assets/aside-logo.png);
   background-repeat: no-repeat;
   background-size: 100% 101%; /* Fix problem */
+}
+
+#asideLeft {
   grid-area: 1 / 1 / 4 / 2;
 }
 
@@ -24,8 +28,8 @@ body {
   justify-content: center;
   align-items: center;
   grid-area: 1 / 2 / 1/ 2;
-  background-color: rgb(0, 221, 52);
-  font: 20px bold black;
+  color: rgb(72, 218, 255);
+  background-color: rgb(61, 61, 61);
 }
 
 #itemSignUp {
@@ -33,14 +37,11 @@ body {
   justify-content: center;
   align-content: center;
   grid-area: 2 /2 /2 /2;
-  background-color: aqua;
+  background-color: rgb(237, 237, 237);
   padding: 10px 0px 10px 0px; /* Top and bottom */
 }
 
-#itemRight {
-  background-image: url(assets/aside-logo.png);
-  background-repeat: no-repeat;
-  background-size: 100% 101%; /* Fix problem */
+#asideRight {
   grid-area: 1 / 3 / 4 / 4;
 }
 
@@ -49,9 +50,8 @@ body {
   justify-content: center;
   align-items: center;
   grid-area: 3/ 2 /3 /2;
-  /* height: 50px; */
-  font: 20px bold black;
-  background-color: aquamarine;
+  color: rgb(0, 0, 0);
+  background-color: rgb(204, 204, 204);
 }
 
 #btnSubmit {
